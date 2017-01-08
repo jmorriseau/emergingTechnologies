@@ -86,9 +86,38 @@ a:not(.active):hover{
   text-align:right;
 }
 
-.hide{
-  display:none;
+.accordian-container{
+  width:100%;
+  display:block;
+  margin-bottom:10px;
 }
+.accordian-header{
+  width:100%;
+  padding:5px;
+  box-sizing:border-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size:16px;
+  color:#fff;
+  cursor:pointer;
+}
+.accordian-body{
+  width:100%;
+  padding:15px;
+  box-sizing: border-box;
+  font-size:14px;
+  display:none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+span.fa{
+  margin-right:7px;
+}
+
 
 #footer {
   width:100%;
