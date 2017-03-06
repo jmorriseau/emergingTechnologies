@@ -70,16 +70,139 @@
           <div class="accordian-container">
             <div class="accordian-header" onclick="toggleAccordian(this)">
               <span class="fa fa-plus"></span>
+              Week Two - Sunday, January 15, 2017
+            </div>
+            <div class="accordian-body">
+              This week I continued my Udemy class on the MEAN stack. I reviewed how to install packages like Mocha and Express with NPM.
+               I also learned the basics of Node.js and Express.  I worked on a demo project to explore how Express works which covered
+               things like routing by default to the home page and how to update status codes. I have a basic app working that is minimally
+                styled with a “sticky” footer and am able to make an API call which returns simple JSON. Watching the videos and working on
+                demos from the videos took up most of my time this week at around 6 hours. I then worked on my own app for around 3 hours
+                trying to repeat what I learned so I will be able to use it for my project. I struggled a bit this week to understanding how
+                Node does asynchronous yes non-blocking calls. The concept seems contradictive but I will continue to review it this week. I
+                also took longer to do the demos than I thought I would. It is different than things I have done in the past so I found myself
+                re-watching large sections of the videos. Next week I plan to continue my research, practice the concepts and hope to get through
+                section one of the Udemy class.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Three - Sunday, January 22, 2017
+            </div>
+            <div class="accordian-body">
+              This week was more of the Udemy class. I worked with Express and routes to create an API for getting all hotels and get
+              one individual hotel (from the demo) with URL parameters from a static JSON file for testing. I am learning how to
+              structure the application so it is neat, files are easy to find and file paths are easy to follow. This included adding
+              pagination so the results of get all hotels (if you had all the hotels in the world) would be returned in a manageable way
+              through the query string parameters. I also tested a POST for adding a new hotel with the help of the middleware body-parser
+              I installed through NPM and the Chrome plugin Postman. Finally, I installed Nodemon globally so the server monitors changes
+              and restarts when changes are made. Following these demos (and troubleshooting my errors) took around 6 hours. I spent 2-3 hours
+              testing additional routes, adding folders for Nodemon ignores and making sure I followed the routing correctly.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Four - Sunday, January 29, 2017
+            </div>
+            <div class="accordian-body">
+              This week I continued the Udemy course. I learned about NoSQL databases, specifically MongoDB which is a document
+              store. Having only dealt with relational databases in school, this is a tough concept to grasp (1 hour). In order
+              to work with MongoDB I needed to first install it on my Mac. I ran into a few issues since this Udemy class assumes
+              you already have MongoDB installed and simply sends you to mongodb.org for a download if you have not. I ended up
+              finding a YouTube tutorial (listed in my resources) to help me install MongoDB with Homebrew. This was easier to
+              follow and helped me identify my previous issue which was the ownership of, who could use, MongoDB (2 hours). Once
+              I was able to get the MongoDB installed and running I learned how to create a new database, new collection and then
+              documents, followed by the basic CRUD operations for documents and collections. We then covered how to export the
+              database as BSON or JSON and how to zip the data. We also covered how to create new databases and collections from
+              a JSON file (3 hours). Finally, I updated the existing project to use a database with MongoDB instead of the original
+              JSON file. I am now able to get all hotels, one hotel and add a hotel to the database (2 hours). Next week I will start
+              building out the REST API and dive into Mongoose.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Five - Sunday, February 05, 2017
+            </div>
+            <div class="accordian-body">
+              This week's Udemy classes covered how to use Mongoose and how to define a Mongoose schema. This included schema
+              types, basic validation, setting default values and being able to do this all in one place with JavaScript (2 hours).
+              I then learned how to define and include subdocuments or schemas into the main schema, store geo-location coordinates and
+              create a spherical index for geo-spatial data with 2D indexes for searching (3 hours). I used Mongoose queries for GET routes
+              of the API to get multiple hotels, a subset of hotels and a single hotel. Then drilled further down to get multiple and then
+              individual sub-documents (2 hours). I then used Mongoose to find hotels within a certain distance of other hotels. More
+              excitingly, I learned how to add to the parent and sub-documents to add new reviews to existing hotels. I finished the week
+              by completing the API with the remaining CRUD methods, update and delete (3 hours). Next week I will start learning about
+              single page applications using AngularJs that will use the API I have just completed building.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Six - Sunday, February 12, 2017
+            </div>
+            <div class="accordian-body">
+              This week’s Udemy class began with an introduction to AngularJS with built in directives (1 hour). We then looked
+              at built in filters (1 hour). Filters provide a way to format the data before displaying it. Next was Controllers,
+              $scope and controllerAs (2 hours). It was recommended to use controllerAs over scope as it makes the code easier to
+              use and also allows you to reference variables within different controllers. From here, I moved on to modules, single
+              page apps, routes and templates (4 hours). Then build-in services and best practices for application architecture, custom
+              services and Service vs factory (2 hour). More excitingly, I was finally able to connect the Angular app with the API! I am
+              able to pull back a list of hotels as well as drill down to details about one of those hotels, as well as add a review to a
+              specific hotel (3 hours). At this point in the video the instructor changed. This new one is not as clear in his direction.
+              There is a lot of information and I am struggling a little to put it all together with what I learned about Node, Mongo and
+              Mongoose. I am hoping I am not going to run out of time to build my application. Next week I will start working what I have
+              learned into my own application.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Seven - Sunday, February 19, 2017
+            </div>
+            <div class="accordian-body">
+              This week I ventured away from the Udemy class to make progress on my final project. I organized a list of
+              information I will be using to showcase my AngularJS knowledge with on my site. (1 hour) I also added pages
+              and navigation to my origin site I started at the beginning of the quarter (4 hours). This included some research
+              on popular layouts for easy navigation and ease of use for the site (1 hour). I finished the week out trying to
+              style my pages and come up with components I can reuse (3 hours). I did not run into any real issues this week.
+              Next week I am looking forward to making significant progress on the data (AngualrJS) aspects of my site.
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
+              Week Eight - Sunday, March 05, 2017
+            </div>
+            <div class="accordian-body">
+              This week I worked completely, all 16-20 hours, on my project. In this time, I have accomplished a great deal.
+              I have my entire architecture built. Each page layout is built with all content. I have created a new mongo database
+              which I can get information from and send information to. I have started to build out my Angular components and my
+              mongoose schemas for the data I will send to the database. I struggled a lot this week. Taking what I learned in the
+              video and translating it to a new application was difficult. Having this been only the second thing I have built, it
+              took me a lot longer to figure out how to structure the application and make sure I had all the pieces in the right
+              spot. Although I set out to learn Angular, I have actually learned much more than just Angular. While this was great
+              for my learning, it also means that I have not built out as much in Angular alone as I originally thought I could
+              accomplish. Next week I plan to finish my schemes, finish the structure of my forms and adding the data to the
+              database. Finally, I will add a spot to pull the information from the database for purposes of proving the data is in
+              the database in the correct structure. 
+            </div>
+          </div>
+
+          <div class="accordian-container">
+            <div class="accordian-header" onclick="toggleAccordian(this)">
+              <span class="fa fa-plus"></span>
               Future Status Updates
             </div>
             <div class="accordian-body">
-              <h3>Week Two - Sunday, January 15, 2017</h3>
-              <h3>Week Three - Sunday, January 22, 2017</h3>
-              <h3>Week Four - Sunday, January 29, 2017</h3>
-              <h3>Week Five - Sunday, February 05, 2017</h3>
-              <h3>Week Six - Sunday, February 12, 2017</h3>
-              <h3>Week Seven - Sunday, February 19, 2017</h3>
-              <h3>Week Eight - Sunday, March 05, 2017</h3>
               <h3>Week Nine - Sunday, March 12, 2017</h3>
               <h3>Week Ten - Friday, March 17, 2017</h3>
             </div>
@@ -115,6 +238,7 @@
           <li><a href="https://www.udemy.com/understand-nodejs/learn/v4/content" target="_balnk">Learn and Understand NodeJS</a></li>
           <li><a href="https://www.udemy.com/the-complete-javascript-developer-mean-stack-zero-to-hero/learn/v4/content" target="_blank">
             MEAN stack</a></li>
+          <li><a href="https://www.youtube.com/watch?v=-0X8mr6Q8Ew&t=1100s" target="_blank">MongoDB Tutorial</a></li>
         </ul>
 
       </div>
